@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    width: 100%;
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    border: 1px solid #000;
+    width: 350px;
+    margin: 40px auto;
+    background: tomato;
+}
+
+.ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    
+    
+}
+
+.day{
+    font-size: 1.5rem;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.days{
+    text-align: right;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    color: #fff;
+}
